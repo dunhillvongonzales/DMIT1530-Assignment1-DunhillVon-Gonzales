@@ -458,8 +458,9 @@ footer a {
     }
 
     .wrapper {
-        margin: 0 auto;
-        width: 600px;
+        max-width: 1400px;
+        margin: 0;
+        /* width: 600px; */
     }
 
     .wrapper h2 {
@@ -526,6 +527,11 @@ footer a {
 
     .reverse-text div p {
         margin: 0;
+    }
+
+    .constraint-quote {
+        max-width: 1000px;
+        margin: 0 auto;
     }
 }
 
@@ -602,5 +608,15 @@ footer a {
     footer div img {
         width: 45rem;
         margin-bottom: 2rem;
+    }
+
+    .constraint {
+        max-width: 1405px;
+        margin: 0 auto;
+    }
+
+    .blockquote h1 {
+        max-width: 1000px;
+        margin: 0 auto;
     }
 }
