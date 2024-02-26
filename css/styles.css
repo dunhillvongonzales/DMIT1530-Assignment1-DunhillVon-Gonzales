@@ -457,6 +457,10 @@ footer a {
         margin-bottom: 2rem;
     }
 
+    .text-constraint {
+    width: 35rem;
+    }
+
     .wrapper {
         max-width: 1400px;
         margin: 0;
@@ -597,6 +601,10 @@ footer a {
         padding: 5rem 16rem 2rem 16rem;
         justify-content: center;
     }
+
+    .text-constraint {
+        width: 40rem;
+        }
 
     footer .wrapper {
         display: flex;
